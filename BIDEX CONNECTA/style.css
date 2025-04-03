@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* ENCABEZADO */
+header {
+    background: white;
+    padding: 70px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fila-superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+/* Ajuste del logo para que sea grande y se mantenga en la esquina superior izquierda */
+.logo {
+    position: absolute;
+    top: -20px; /* Aumenta este valor para subir más el logo */
+    left: 10px;
+    width: 285px; /* Aumentado el tamaño */
+    height: 285px; /* Aumentado el tamaño */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Barra de búsqueda */
+.buscar {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.buscar input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* PERFIL Y OPCIONES DE USUARIO */
+.perfil-container {
+    display: flex;
+    align-items: center;
+}
+
+.perfil button {
+    padding: 5px 10px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.perfil-opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.perfil-opciones a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.extra-opciones {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.extra-opciones a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* SECCIÓN CATEGORÍAS */
+.categorias {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* SECCIÓN TARJETAS */
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta {
+    background: white;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* SECCIÓN OFERTAS */
+.ofertas {
+    background: white;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.indicadores {
+    margin-top: 10px;
+}
+
+.indicadores span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    margin: 0 5px;
+    border-radius: 50%;
+}
